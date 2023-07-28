@@ -1,0 +1,373 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    align-items: center;
+    padding-top: 40px;
+    margin-bottom: 143px;
+}
+
+.brand__logo {
+    align-items: center;
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.brand__img {
+    margin-right: 14px;
+}
+
+.menu {
+    align-items: center;
+}
+
+.menu__link {
+    padding: 11px 0;
+    margin-right: 34px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menu__link:hover {
+    color: #F25822;
+}
+
+.btn__small {
+    padding: 12px 27px;
+    color: #FFF;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 30px;
+    background: #F25822;
+}
+
+.btn__small:hover {
+    opacity: 0.9;
+}
+
+.top__content {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 200px;
+}
+
+.ellipse {
+    position: absolute;
+    z-index: -1;
+    margin-top: 73px;
+    margin-left: -21px;
+}
+
+.top__title {
+    padding-bottom: 20px;
+    color: #000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+
+.top__text {
+    width: 470px;
+    margin-bottom: 40px;
+    color: #888;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+
+.top__buttons {
+    display: flex;
+    align-items: center;
+}
+
+.top__link {
+    color: #AAA;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top__link:hover {
+    color: #888888;
+}
+
+.top__img {
+    padding-right: 67px;
+}
+
+.btn__img {
+    margin-right: 15px;
+}
+
+.btn__img:hover {
+    opacity: 0.7;
+}
+
+.btn {
+    padding: 15px 35px;
+    margin-right: 27px;
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.orange__text {
+    color: #F25822;
+}
+
+.top__logos {
+    margin-bottom: 96px;
+}
+
+.about__bg {
+    background-color: #FAFAFA;
+    position: relative;
+    z-index: -2;
+}
+
+.wave {
+    z-index: -1;
+    position: absolute;
+    top: -170px;
+    left: -210px;
+    transform: rotate(2.095deg);
+}
+
+.about {
+    z-index: 1;
+}
+
+.about__heading {
+    color: #000;
+    font-size: 45px;
+    font-weight: 400;
+    padding-top: 125px;
+    margin-bottom: 20px;
+}
+
+.about__text {
+    width: 515px;
+    color: #666;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+    margin-bottom: 35px;
+}
+
+.about__btn {
+    padding: 16px 31px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.about__btn:hover {
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.features {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature__card {
+    background: #ffffff;
+    padding: 40px 30px 25px;
+    margin: 100px 0;
+}
+
+.middle__feature {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.feature__card:hover {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.feature__icon {
+    margin-bottom: 25px;
+}
+
+.feature__heading {
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 17px;
+}
+
+.feature__text {
+    width: 310px;
+    color: #666;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+    margin-bottom: 25px;
+}
+
+.feature__link {
+    color: #000;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 16.5px */
+}
+
+.feature__link:hover {
+    opacity: 0.8;
+}
+
+.services__bg {
+    background-color: #FAFAFA;
+}
+
+.services__title {
+    display: flex;
+    justify-content: center;
+    padding-top: 92px;
+    margin-bottom: 19px;
+    color: #000;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.services__text {
+    width: 682px;
+    color: #666;
+    text-align: center;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+    margin-bottom: 55px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    gap: 22px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.service__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    margin-bottom: 100px;
+}
+
+.service__card:hover {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
+
+.service__heading {
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+
+.service__text {
+    width: 310px;
+    color: #AAA;
+    text-align: center;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+    margin-bottom: 39px;
+}
+
+.middle__service {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
+
+.service__btn {
+    padding: 15px 26px 15px 46px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 150%;
+    /* 19.5px */
+    margin-bottom: 50px;
+}
+
+.service__btn:hover {
+    opacity: 0.9;
+}
