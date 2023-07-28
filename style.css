@@ -181,7 +181,7 @@ a {
     transform: rotate(2.095deg);
 }
 
-.about {
+.about__left {
     z-index: 1;
 }
 
@@ -217,18 +217,6 @@ a {
 .about__btn:hover {
     opacity: 0.9;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .features {
     display: flex;
